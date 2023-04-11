@@ -26,3 +26,8 @@ model-viewer {
   height: 90%;
   background-color: #f6f6f3;
 }
+
+#progress-bar-d {
+  height: 10px;
+  background: red;
+}
