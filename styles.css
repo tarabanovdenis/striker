@@ -6,6 +6,10 @@
   outline: none !important;
 }
 
+.hide {
+  display: none;
+}
+
 html {
   height: 100%;
 }
