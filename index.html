@@ -11,14 +11,22 @@
   </head>
   <body>
     <!-- <model-viewer> HTML element -->
-    <model-viewer touch-action="pan-y" disable-tap disable-zoom src="MP-23.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="0.79" exposure="1.06" shadow-softness="0.79" camera-orbit="-523deg 99.95deg 474.5m" field-of-view="26.19deg">
+<!--     <model-viewer touch-action="pan-y" disable-tap disable-zoom src="MP-23.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="0.79" exposure="1.06" shadow-softness="0.79" camera-orbit="-523deg 99.95deg 474.5m" field-of-view="26.19deg">
       <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
       </div>
       <button slot="ar-button" id="ar-button">
         View in 
       </button>
-    </model-viewer>  
+    </model-viewer>   -->
+    <model-viewer touch-action="pan-y" disable-tap disable-zoom src="MP_23.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" camera-orbit="-519.1deg 93.68deg 477.8m" field-of-view="26.54deg">
+      <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+        View in 
+      </button>
+    </model-viewer>
     <div class="loader">
       <div class="loader__label">Loading model</div>
       <div class="loader__inner"><div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
